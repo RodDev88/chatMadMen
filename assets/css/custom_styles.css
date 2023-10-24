@@ -1,0 +1,52 @@
+
+.container {
+    display: flex;
+    background-color: gray;
+    max-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+
+.sidebar {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+    width: 30%;
+    background-color: whitesmoke;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 80%;
+
+}
+
+.user_info {
+    display: flex;
+}
+
+.user_pic  {
+    display: flex;
+  
+
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.user_data {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+}
