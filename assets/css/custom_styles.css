@@ -4,7 +4,7 @@
     background-color: gray;
     max-height: 100vh;
     font-family: 'Roboto', sans-serif;
-    color: red;
+    color: gray;
 }
 
 .sidebar {
@@ -12,8 +12,10 @@
     /* flex-direction: column; */
     /* justify-content: center;
     align-items: center; */
-    width: 30%;
+    width: 22%;
     background-color: whitesmoke;
+    margin: 1.5px;
+    justify-content: space-between;
 
 }
 
@@ -29,24 +31,50 @@
 
 .user_info {
     display: flex;
+    margin: 10px;
+    width: 100%;
 }
+
 
 .user_pic  {
     display: flex;
+    justify-content: center;
+    width: 80%;
   
 
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-right: 5px;
 }
 
 .user_data {
     display: flex;
     flex-direction: column;
+    margin: 5px;
+    justify-content: center;
+}
+
+h3 {
+    margin: 0px;
+    font-size: 1em;
+}
+
+p {
+    margin: 0px;
+    font-size: 0.8em;
 }
 
 .nav {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 15px; */
+}
+
+i {
+    margin: 3px;
 }
